@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-const Title = styled.h1`
+const Header = styled.h1`
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 10em;
   text-align: center;
-  font-size: 1.5em;
-  color: #fff;
-  background-color: #D5C7BC;
+  color: #F1FFFA;
+  background-color: #93B7BE;
   margin: 0;
   padding: 1em;
 `;
 
-export default Title;
+export default Header;
