@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const Trademark = styled.span`
+const Footer = styled.footer`
   font-family: Arial, Helvetica, sans-serif;
   color: #454545;
   background-color: #F1FFFA;
@@ -9,5 +9,5 @@ const Trademark = styled.span`
   text-align: center;
   padding: 1em;
 `;
-  export default Trademark;
+  export default Footer;
   

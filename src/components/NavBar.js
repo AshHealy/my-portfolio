@@ -28,9 +28,9 @@ const NavBar = () => {
             
             <StyledNavItem><Link to="/about">About</Link></StyledNavItem>
 
-            <StyledNavItem><Link to="/contact">Contact</Link></StyledNavItem>
-
             <StyledNavItem><Link to="/software">SoftwareDev</Link></StyledNavItem>
+
+            <StyledNavItem><Link to="/contact">Contact</Link></StyledNavItem>
 
         </StyledNav>
     )

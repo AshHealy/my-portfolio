@@ -6,9 +6,8 @@ import NavBar from "./components/NavBar"
 import ErrorPage from "./components/ErrorPage";
 import Contact from "./components/Contact";
 import SoftwareDev from "./components/SoftwareDev";
-// import Title from "./styles/Title";
 import Header from "./styles/Header";
-import Trademark from "./styles/Trademark";
+import Footer from "./styles/Footer";
 
 
 
@@ -23,14 +22,14 @@ const App = ()=>  {
           <Routes>
             <Route path='/' element={<Home />}/>
             <Route path='/about' element={<About/>}/>
-            <Route path='/contact' element={<Contact/>}/>
             <Route path='/software' element={<SoftwareDev/>}/>
+            <Route path='/contact' element={<Contact/>}/>
             <Route path="*" element={< ErrorPage />} />
           </Routes>
 
       </Router>
 
-      <Trademark>&copy; 2023 Ashley Healy. All rights reserved. | <span>Trademark &trade; Statement</span></Trademark>
+      <Footer>&copy; 2023 Ashley Healy. All rights reserved. | <span>Trademark &trade; Statement</span></Footer>
 
     </>
   );
