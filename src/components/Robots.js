@@ -9,7 +9,7 @@ const Robots = () => {
     return(
         <div>
         <Title>Robots</Title>
-        <Paragraph>Some information about us.</Paragraph>
+        <Paragraph>Some information about robots.</Paragraph>
         </div>
         )
 
